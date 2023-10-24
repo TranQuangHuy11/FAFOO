@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #53585e;
+    background-image: url('/img/anhnendn.png'); 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none; color: #53585e;
+}
+
+ul{
+   padding: 0;
+   margin: 0;
+   list-style: none; 
+}
+
+.logo{
+     width: 100px;
+}
+
+/* .form-login {
+    background-image: url('/img/anhnendn.png'); 
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+} */
+
+
+.form-login .form-container{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.form-login .form-header .title{
+    font-size: 2rem;
+    color: orange;
+    padding-top: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+
+.form-login .form-body .field {
+    display: flex;
+}
+
+.form-login .form-body .field span{
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    background: orange;
+    color: aliceblue;
+}
+
+
+.form-login .form-body .field .form-control {
+     border-top-left-radius: 0;
+     border-bottom-left-radius: 0;
+     border-left: 0;
+}
+.forgot-password{
+    float: right;
+}
+ 
+
+.form-login .submit{
+    background: orange;
+    color: #fff;
+    width: 100%;
+}
+
+.form-login .form-footer .title {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.form-login .form-footer .title{
+    display: flex;
+    justify-content: center;
+}
+
+.form-login .form-footer .title::before, .form-login .form-footer .title::after{
+    content: "";
+    flex-grow: 1;
+    background-color: #53585e;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.form-login .form-footer .title::before{
+    margin-right: 5px;
+}
+
+
+.form-login .form-footer .title::after{
+    margin-left: 5px;
+}
+
+
+.network li{
+    display: inline-block;
+    background: #4867aa;
+    padding: 5px 10px;
+    border-radius: 3px;
+    width: 87px;
+}
+
+.network li a{
+    color: #ffffff;
+    display: block;
+}
+
+.network li.google{
+    background-color: #db4437;
+}
+
+.form-description .title{
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding: 20px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+
